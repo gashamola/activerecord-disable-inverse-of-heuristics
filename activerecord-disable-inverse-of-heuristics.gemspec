@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files         = Dir['{lib}/**/*.rb', '{lib}/**/*.yml', 'MIT-LICENSE', 'README.md', 'CHANGELOG', 'Rakefile']
   s.homepage      = 'https://github.com/mtgrosser/activerecord-disable-inverse-of-heuristics'
   s.licenses      = ["MIT"]
-  s.required_ruby_version = '>= 2.1.0'
+  #s.required_ruby_version = '>= 2.1.0'
   
   s.add_runtime_dependency 'activerecord', '>= 4.1'
   
